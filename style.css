@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -40,5 +41,51 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 146px;
+    margin-top: 96px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 514px;
+    margin-top: 50px;
+}
+
+.input {
+    width: 447px;
+    height: 57px;
+    font-size: 24px;
+
+    outline: none;
+    border: 4px #8D8D8D solid;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.forma {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #5B89CE;
+    padding: 15px 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border: 2px #476443 solid;
+    border-radius: 25px;
+}
+
+.btn:hover {
+    background-color: #385f99;
+    transition: 0.4s;
+}
+
+.button {
+    text-align: center;
+    margin-top: 40px;
 }
